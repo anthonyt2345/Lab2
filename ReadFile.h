@@ -13,6 +13,7 @@ struct ReadFile
    bool closed;
 };
 
+//i love anthony
 ReadFile* createReadFile(const char* file_name);
 void destroyReadFile(ReadFile* rf);
 String* readLine(ReadFile* rf);
